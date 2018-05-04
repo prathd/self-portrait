@@ -14,5 +14,5 @@ export default class Container extends Component {
 }
 
 Container.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.arrayOf(PropTypes.element),
 };
