@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Router, Switch, Route } from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 
 import registerServiceWorker from './registerServiceWorker';
-import './index.css';
 
 // import containers (pages)
 import LandingPage from './containers/LandingPage';
@@ -15,12 +14,12 @@ const history = createBrowserHistory();
 class App extends Component {
   render() {
     return (
-      <BrowserRouter history={history}>
+      <Router history={history}>
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route component={NotFoundPage} />
         </Switch>
-      </BrowserRouter>
+      </Router>
     );
   }
 }

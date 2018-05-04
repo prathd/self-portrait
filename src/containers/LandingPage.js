@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 
 import Container from '../components/Container';
-import HomemadeAppleText from '../components/HomemadeAppleText';
+import PersonalBlurb from '../components/PersonalBlurb';
+import MiddleVerticalBackground from '../components/MiddleVerticalBackground';
+
+import './landing-page.css';
 
 class LandingPage extends Component {
   render() {
     return (
       <Container>
-        <HomemadeAppleText fontSize="100px">This is my initial container</HomemadeAppleText>
+        <PersonalBlurb />
+        <MiddleVerticalBackground />
       </Container>
     );
   }

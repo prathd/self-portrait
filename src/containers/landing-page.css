@@ -3,5 +3,6 @@ html, body, #app {
   padding: 0;
 
   width: 100%;
-  overflow: auto;
+  height: 100%;
+  overflow: hidden;
 }
