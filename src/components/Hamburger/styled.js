@@ -12,6 +12,6 @@ export const Line = styled.hr`
   width: 30px;
   border: solid 1px #979797;
   margin: ${(props) => props.margin};
-  transform: ${(props) => props.transform};
+  transform: ${(props) => props.transform ? props.transform : 'none'};
   display: ${(props) => props.hide && 'none'}
 `;
