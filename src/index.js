@@ -6,19 +6,48 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import registerServiceWorker from './registerServiceWorker';
 
 // import containers (pages)
-import LandingPage from './containers/LandingPage';
-import NotFoundPage from './containers/NotFoundPage';
+import LandingPage from './containers/LandingPage/';
+import AboutPage from './containers/AboutPage/';
+import NotFoundPage from './containers/NotFoundPage/';
+
+// import hamburger menu components
+import Hamburger from './components/Hamburger';
+import Drawer from './components/Drawer';
 
 const history = createBrowserHistory();
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      showDrawer: false,
+    };
+  }
+
+  toggleDrawer() {
+    this.setState({ showDrawer: !this.state.showDrawer });
+  }
+
   render() {
     return (
       <Router history={history}>
-        <Switch>
-          <Route exact path="/" component={LandingPage} />
-          <Route component={NotFoundPage} />
-        </Switch>
+        <div>
+          <Switch>
+            <Route exact path="/" component={LandingPage} />
+            <Route exact path="/about" component={AboutPage} />
+            <Route component={NotFoundPage} />
+          </Switch>
+
+          <Hamburger
+            showDrawer={this.state.showDrawer}
+            toggleDrawer={() => this.toggleDrawer()}
+          />
+          <Drawer
+            showDrawer={this.state.showDrawer}
+            toggleDrawer={() => this.toggleDrawer()}
+          />
+        </div>
       </Router>
     );
   }
