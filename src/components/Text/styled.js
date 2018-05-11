@@ -6,4 +6,5 @@ export const Span = styled.span`
   font-weight: ${(props) => props.fontWeight};
   line-height: ${(props) => props.lineHeight};
   letter-spacing: ${(props) => props.letterSpacing};
+  color: ${(props) => props.color};
 `;
