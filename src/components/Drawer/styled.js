@@ -1,6 +1,24 @@
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 
 import Text from '../Text';
+
+const slideIn = keyframes`
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+`;
+
+const slideOut = keyframes`
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+`;
 
 export const Div = styled.div`
   display: flex;
@@ -11,9 +29,13 @@ export const Div = styled.div`
   opacity: 0.9;
 
   position: absolute;
-  left: 0;
+  right: ${(props) => props.showDrawer ? '0%' : '-100%'};
   top: 0;
   z-index: 1;
+
+  transition: 0.5s;
+  animation: ${(props) => props.showDrawer ? slideIn : slideOut} 0.5s forwards;
+  -webkit-animation: ${(props) => props.showDrawer ? slideIn : slideOut} 0.5s forwards;
 `;
 
 export const ButtonDiv = styled.div`
@@ -33,39 +55,41 @@ export const NavButton = styled(Text)`
   margin-bottom: 20px;
   text-decoration: ${(props) => props.active ? 'line-through' : 'underline'};
 
-  &:hover {
-    cursor: pointer;
-  }
+  ${(props) => (!props.active && css`
+    &:hover {
+      cursor: pointer;
+    }
 
-  &:before, &:after {
-    content: '';
-    position: absolute;
-    width: 0%;
-    top: 50%;
-    height: 3px;
-    margin-top: -0.5px;
-    background: #000;
-  }
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      width: 0%;
+      top: 50%;
+      height: 3px;
+      margin-top: -0.5px;
+      background: #000;
+    }
 
-  &:before {
-    left: -2.5px;
-  }
+    &:before {
+      left: -2.5px;
+    }
 
-  &:after {
-    right: 2.5px;
-    background: #000;
-    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
-  }
+    &:after {
+      right: 2.5px;
+      background: #000;
+      transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
 
-  &:hover:before {
-    background: #000;
-    width: 100%;
-    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-  }
+    &:hover:before {
+      background: #000;
+      width: 100%;
+      transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
 
-  &:hover:after {
-    background: transparent;
-    width: 100%;
-    transition: 0s;
-  }
+    &:hover:after {
+      background: transparent;
+      width: 100%;
+      transition: 0s;
+    }
+  `)}
 `;

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import * as Styled from './styled';
 
 export default class Drawer extends Component {
   render() {
     return (
-      <Styled.Div>
+      <Styled.Div showDrawer={this.props.showDrawer}>
         <Styled.ButtonDiv>
           <Styled.NavButton
             fontFamily="Myriad Pro"
@@ -48,3 +49,7 @@ export default class Drawer extends Component {
     );
   }
 }
+
+Drawer.propTypes = {
+  showDrawer: PropTypes.bool,
+};

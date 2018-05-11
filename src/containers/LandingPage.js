@@ -31,7 +31,7 @@ class LandingPage extends Component {
           showDrawer={this.state.showDrawer}
           toggleDrawer={() => this.toggleDrawer()}
         />
-        {this.state.showDrawer && <Drawer />}
+        <Drawer showDrawer={this.state.showDrawer} />
       </Container>
     );
   }

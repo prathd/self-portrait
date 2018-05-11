@@ -6,6 +6,7 @@ export const Div = styled.div`
   align-self: center;
   overflow: hidden;
   white-space: nowrap;
+  color: #f6f6f6;
 `;
 
 export const LeftDiv = styled.div`
