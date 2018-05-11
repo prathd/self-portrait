@@ -55,6 +55,8 @@ export const NavButton = styled(Text)`
   margin-bottom: 20px;
   text-decoration: ${(props) => props.active ? 'line-through' : 'underline'};
 
+  margin-left: 40px;
+
   ${(props) => (!props.active && css`
     &:hover {
       cursor: pointer;

@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 
+import Container from '../../components/Container';
+import AboutBackground from '../../components/AboutBackground';
+import TitleCard from '../../components/TitleCard';
+
 import './styles.css';
 
 class AboutPage extends Component {
   render() {
     return (
-      <h1>
-        About Page
-      </h1>
+      <Container>
+        <AboutBackground />
+        <TitleCard />
+      </Container>
     );
   }
 }
