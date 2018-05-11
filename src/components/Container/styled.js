@@ -4,6 +4,7 @@ export const ResponsiveDiv = styled.div`
   width: 100%;
   margin: 0 auto;
 
+  position: relative;
   display: flex;
   flex-direction: column;
 

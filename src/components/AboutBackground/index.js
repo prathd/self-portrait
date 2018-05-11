@@ -6,9 +6,11 @@ import * as Styled from './styled';
 export default class AboutBackground extends Component {
   render() {
     return (
-      <Styled.GreyDiv>
-        {this.props.children}
-      </Styled.GreyDiv>
+      <Styled.OuterDiv>
+        <Styled.GreyDiv>
+          {this.props.children}
+        </Styled.GreyDiv>
+      </Styled.OuterDiv>
     );
   }
 }

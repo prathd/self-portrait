@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const OuterDiv = styled.div`
+  position: relative;
+`;
+
 export const GreyDiv = styled.div`
   width: 100%;
   height: 620px;
@@ -8,5 +12,4 @@ export const GreyDiv = styled.div`
   position: absolute;
   z-index: -1;
   left: 40px;
-  top: 0;
 `;
