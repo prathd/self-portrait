@@ -1,24 +1,6 @@
-import styled, { keyframes, css } from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import Text from '../Text';
-
-const slideIn = keyframes`
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
-`;
-
-const slideOut = keyframes`
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(100%);
-  }
-`;
 
 export const Div = styled.div`
   display: flex;
@@ -26,16 +8,13 @@ export const Div = styled.div`
   height: 100%;
   width: 100%;
   background: white;
-  opacity: 0.9;
 
   position: absolute;
   right: ${(props) => props.showDrawer ? '0%' : '-100%'};
   top: 0;
   z-index: 1;
 
-  transition: 0.5s;
-  animation: ${(props) => props.showDrawer ? slideIn : slideOut} 0.5s forwards;
-  -webkit-animation: ${(props) => props.showDrawer ? slideIn : slideOut} 0.5s forwards;
+  transition: all .5s ease-in-out;
 `;
 
 export const ButtonDiv = styled.div`
@@ -50,8 +29,8 @@ export const ButtonDiv = styled.div`
 
 export const NavButton = styled(Text)`
   position: relative;
-  clear:both;
-  float:left;
+  clear: both;
+  float: left;
   margin-bottom: 20px;
   text-decoration: ${(props) => props.active ? 'line-through' : 'underline'};
 

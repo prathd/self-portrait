@@ -5,6 +5,7 @@ import Container from '../../components/Container';
 import AboutBackground from '../../components/AboutBackground';
 import TitleCard from '../../components/TitleCard';
 import ContentCard from '../../components/ContentCard';
+import TimelineCard from '../../components/TimelineCard';
 
 class AboutPage extends Component {
   render() {
@@ -18,6 +19,7 @@ class AboutPage extends Component {
 
           <TitleCard />
           <ContentCard />
+          <TimelineCard />
         </Container>
       </div>
     );
