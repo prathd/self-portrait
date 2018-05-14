@@ -8,6 +8,9 @@ import registerServiceWorker from './registerServiceWorker';
 // import containers (pages)
 import LandingPage from './containers/LandingPage/';
 import AboutPage from './containers/AboutPage/';
+import PortfolioPage from './containers/PortfolioPage/';
+import BlogPage from './containers/BlogPage/';
+import ContactPage from './containers/ContactPage/';
 import NotFoundPage from './containers/NotFoundPage/';
 
 // import hamburger menu components
@@ -36,6 +39,9 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route exact path="/about" component={AboutPage} />
+            <Route exact path="/portfolio" component={PortfolioPage} />
+            <Route exact path="/blog" component={BlogPage} />
+            <Route exact path="/contact" component={ContactPage} />
             <Route component={NotFoundPage} />
           </Switch>
 
