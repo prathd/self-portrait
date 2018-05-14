@@ -31,7 +31,10 @@ export default class LeftLinks extends Component {
           </Styled.CustomA>
         </Styled.Link>
         <Styled.Link>
-          <Styled.CustomA>
+          <Styled.CustomA
+            href="/cv.pdf"
+            target="_blank"
+          >
             RESUME
           </Styled.CustomA>
         </Styled.Link>
