@@ -7,6 +7,8 @@ export const Div = styled.div`
   overflow: hidden;
   white-space: nowrap;
   color: #f6f6f6;
+
+  z-index: -1;
 `;
 
 export const LeftDiv = styled.div`

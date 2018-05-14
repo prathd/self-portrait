@@ -1,0 +1,75 @@
+<svg width="481px" height="401px" viewBox="0 0 481 401" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 506.666667 506.666667 506.666667 506.666667 0 0 0"></polygon>
+        <path d="M106.666667,213.333333 L53.3333333,213.333333 C23.88,213.333333 0,189.453333 0,160 L0,53.3333333 C0,23.88 23.88,0 53.3333333,0 L426.666667,0 C456.12,0 480,23.88 480,53.3333333 L480,160 C480,189.453333 456.12,213.333333 426.666667,213.333333 L106.666667,213.333333 Z" id="path-3"></path>
+        <polygon id="path-5" points="0 506.666667 506.666667 506.666667 506.666667 0 0 0"></polygon>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Work" transform="translate(-13.000000, -53.000000)">
+            <g id="Barrier,-Construction,-Civil">
+                <g id="svg2">
+                    <g id="g10" transform="translate(253.333333, 253.333333) scale(-1, 1) rotate(-180.000000) translate(-253.333333, -253.333333) ">
+                        <g id="g12">
+                            <g id="g14-Clipped">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="path18"></g>
+                                <g id="g14" mask="url(#mask-2)">
+                                    <g transform="translate(13.333333, 240.000000)" id="g20">
+                                        <g>
+                                            <path d="M480,53.3333333 C480,23.88 456.12,0 426.666667,0 L53.3333333,0 C23.88,0 0,23.88 0,53.3333333 L0,160 C0,189.453333 23.88,213.333333 53.3333333,213.333333 L106.666667,213.333333 L426.666667,213.333333 C456.12,213.333333 480,189.453333 480,160 L480,53.3333333 Z" id="path22" fill="#FFCC4D" fill-rule="nonzero"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="g24" transform="translate(13.333333, 240.000000)">
+                            <g id="g26-Clipped">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="path30"></g>
+                                <g id="g26" mask="url(#mask-4)">
+                                    <g transform="translate(-213.333333, -13.333333)">
+                                        <g id="g32">
+                                            <polygon id="path34" fill="#292F33" fill-rule="nonzero" points="240 240 0 0 66.6666667 0 306.666667 240"></polygon>
+                                        </g>
+                                        <g id="g36" transform="translate(146.666667, 0.000000)">
+                                            <polygon id="path38" fill="#292F33" fill-rule="nonzero" points="240 240 0 0 66.6666667 0 306.666667 240"></polygon>
+                                        </g>
+                                        <g id="g40" transform="translate(293.333333, 0.000000)">
+                                            <polygon id="path42" fill="#292F33" fill-rule="nonzero" points="240 240 0 0 66.6666667 0 306.666667 240"></polygon>
+                                        </g>
+                                        <g id="g44" transform="translate(440.000000, 0.000000)">
+                                            <polygon id="path46" fill="#292F33" fill-rule="nonzero" points="240 240 0 0 66.6666667 0 306.666667 240"></polygon>
+                                        </g>
+                                        <g id="g48" transform="translate(586.666667, 0.000000)">
+                                            <polygon id="path50" fill="#292F33" fill-rule="nonzero" points="240 240 0 0 66.6666667 0 306.666667 240"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="g52">
+                            <g id="g54-Clipped">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="path58"></g>
+                                <g id="g54" mask="url(#mask-6)" fill="#99AAB5" fill-rule="nonzero">
+                                    <g transform="translate(66.666667, 53.333333)">
+                                        <polygon id="path60" points="66.6666667 0 0 0 0 186.666667 66.6666667 186.666667"></polygon>
+                                        <polygon id="path62" points="373.333333 0 306.666667 0 306.666667 186.666667 373.333333 186.666667"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

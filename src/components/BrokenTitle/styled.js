@@ -4,6 +4,11 @@ import Text from '../Text';
 
 export const OuterDiv = styled.div`
   width: ${(props) => (140 + (15 * props.width))}px;
+  position: relative;
+
+  @media (max-width: 576px) {
+    margin-left: 40px;
+  }
 `;
 
 export const GreyDiv = styled.div`

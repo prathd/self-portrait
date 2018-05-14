@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import Container from '../../components/Container';
 import BrokenTitle from '../../components/BrokenTitle';
+import Construction from '../../components/Construction';
 
 class ContactPage extends Component {
   render() {
@@ -13,6 +14,7 @@ class ContactPage extends Component {
         </Helmet>
 
         <BrokenTitle>Contact</BrokenTitle>
+        <Construction />
       </Container>
     );
   }
