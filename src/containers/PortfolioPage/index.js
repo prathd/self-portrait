@@ -3,9 +3,31 @@ import { Helmet } from 'react-helmet';
 
 import Container from '../../components/Container';
 import BrokenTitle from '../../components/BrokenTitle';
-import Construction from '../../components/Construction';
+import PortfolioBlock from '../../components/PortfolioBlock';
 
 class PortfolioPage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      data: [
+        {
+          title: 'HUBDOC',
+          role: 'Web Development',
+          image: 'images/browser-hubdoc.png',
+          backgroundColor: '#A5C1CE',
+          foregroundColor: '#ABCDDC',
+        }, {
+          title: 'KINDRED TALENT',
+          role: 'UI/UX Design & Product Manager',
+          image: 'images/browser-kindred.png',
+          backgroundColor: '#9A5B5E',
+          foregroundColor: '#D4888B',
+        },
+      ],
+    };
+  }
+
   render() {
     return (
       <Container>
@@ -14,7 +36,7 @@ class PortfolioPage extends Component {
         </Helmet>
 
         <BrokenTitle>Work</BrokenTitle>
-        <Construction />
+        <PortfolioBlock data={this.state.data} />
       </Container>
     );
   }
