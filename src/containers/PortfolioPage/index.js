@@ -15,7 +15,7 @@ class PortfolioPage extends Component {
           title: 'HUBDOC',
           role: 'Web Development',
           image: 'images/browser-hubdoc.png',
-          backgroundColor: '#A5C1CE',
+          backgroundColor: '#86A4B2',
           foregroundColor: '#ABCDDC',
         }, {
           title: 'KINDRED TALENT',
