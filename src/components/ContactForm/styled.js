@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
+import Text from '../Text';
+
 export const RightDiv = styled.div`
-  width: 1000px;
+  width: 100%;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -10,6 +12,22 @@ export const RightDiv = styled.div`
   height: 880px;
   right: 0;
   background: #F6F6F6;
+
+  @media (max-width: 991px) {
+    margin-top: 680px;
+  }
+
+  @media (min-width: 992px) {
+    width: 680px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 760px;
+  }
+
+  @media (min-width: 1420px) {
+    width: 1000px;
+  }
 `;
 
 export const Icon = styled.img`
@@ -33,6 +51,10 @@ export const TextTitle = styled.div`
 
 export const MugImage = styled.img`
   width: 40px;
+
+  @media (max-width: 576px) {
+    width: 20px;
+  }
 `;
 
 export const ContactForm = styled.div`
@@ -45,6 +67,10 @@ export const ContactForm = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 576px) {
+      width: 380px;
+    }
 `;
 
 export const Form = styled.form`
@@ -73,6 +99,10 @@ export const InputBox = styled.input`
   &:focus {
     outline: none;
   }
+
+  @media (max-width: 576px) {
+    width: 280px;
+  }
 `;
 
 export const MessageBox = styled.textarea`
@@ -96,6 +126,10 @@ export const MessageBox = styled.textarea`
   &:focus {
     outline: none;
   }
+
+  @media (max-width: 576px) {
+    width: 280px;
+  }
 `;
 
 export const SendButton = styled.input`
@@ -112,5 +146,16 @@ export const SendButton = styled.input`
 
   &:focus {
     outline: none;
+  }
+`;
+
+export const ContactBlurb = styled(Text)`
+  font-family: Avenir-Light;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+
+  @media (max-width: 576px) {
+    font-size: 12px;
   }
 `;

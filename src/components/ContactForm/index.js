@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Text from '../Text';
 import * as Styled from './styled';
 
 export default class ContactForm extends Component {
@@ -28,14 +27,9 @@ export default class ContactForm extends Component {
     return (
       <Styled.RightDiv>
         <Styled.TextTitle>
-          <Text
-            fontFamily="Avenir-Light"
-            fontSize="18px"
-            color="#000000"
-            letterSpacing="0"
-          >
+          <Styled.ContactBlurb>
             Don’t be shy - send me a message! Let’s grab some coffee
-          </Text>
+          </Styled.ContactBlurb>
           &nbsp;&nbsp;
           <Styled.MugImage src="images/Mug.svg" />
         </Styled.TextTitle>

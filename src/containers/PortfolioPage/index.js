@@ -19,10 +19,16 @@ class PortfolioPage extends Component {
           foregroundColor: '#ABCDDC',
         }, {
           title: 'KINDRED TALENT',
-          role: 'UI/UX Design & Product Manager',
+          role: 'UI/UX Designer & Product Manager',
           image: 'images/browser-kindred.png',
           backgroundColor: '#9A5B5E',
           foregroundColor: '#D4888B',
+        }, {
+          title: 'SELF PORTRAIT',
+          role: 'UI/UX Designer & Developer',
+          image: 'images/browser-self.png',
+          backgroundColor: '#A17DA3',
+          foregroundColor: '#E3ADE5',
         },
       ],
     };

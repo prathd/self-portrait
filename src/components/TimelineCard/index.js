@@ -24,7 +24,7 @@ export default class TimelineCard extends Component {
           role: 'Software Marketer &#38; Web Developer',
         }, {
           company: 'UNIVERSITY OF WATERLOO',
-          role: 'Student (Dropped Out ¯&#92;_(ツ)_/¯)',
+          role: 'Student (¯&#92;_(ツ)_/¯)',
         }, {
           company: 'UNIVERSITY OF TENNESSEE',
           role: 'Cancer Research Intern (Pathology Dept)',
