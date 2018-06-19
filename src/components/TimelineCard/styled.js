@@ -41,19 +41,21 @@ export const LeftDiv = styled.div`
   justify-content: flex-end;
 `;
 
-export const Circle = styled.span`
+export const Circle = styled.div`
   background: #FFFFFF;
+  position: absolute;
   border: 1px solid #000000;
   border-radius: 50%;
   display: inline-block;
   width: 25px;
   height: 25px;
-
-  margin: ${(props) => props.right ? '0 40px 0 -13.5px' : '0 -13.5px 0 40px'};
+  margin: ${(props) => props.right ? '0 0 0 -13.5px' : '0 -13.5px 0 0'};
+  right: ${(props) => props.right ? 'auto' : '0'};
 `;
 
 export const TimelineText = styled.div`
-  text-align: ${(props) => props.right ? 'right' : 'left'}
+  text-align: ${(props) => props.right ? 'right' : 'left'};
+  margin: ${(props) => props.right ? '0 40px 0 0' : '0 0 0 40px'};
 `;
 
 export const CustomA = styled.a`

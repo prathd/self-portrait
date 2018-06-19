@@ -5,7 +5,11 @@ import Text from '../Text';
 export const LinksDiv = styled.div`
   position: absolute;
   transform: translateX(-50%) rotate(-90deg) translateX(-65%);
-  left: 0;
+  left: 25px;
+
+  @media (min-width: 576px) {
+    left: 0;
+  }
 `;
 
 export const Link = styled(Text)`

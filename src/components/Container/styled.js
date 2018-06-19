@@ -13,7 +13,7 @@ export const ResponsiveDiv = styled.div`
   }
 
   @media (min-width: 768px) {
-    max-width: 760px;
+    max-width: 750px;
   }
 
   @media (min-width: 992px) {
@@ -25,6 +25,6 @@ export const ResponsiveDiv = styled.div`
   }
 
   @media (min-width: 1420px) {
-    max-width: 1400px;
+    max-width: 1260px;
   }
 `;
