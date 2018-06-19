@@ -9,7 +9,7 @@ export default class MiddleVerticalBackground extends Component {
       <Styled.Div>
         <Styled.LeftDiv>
           <Text
-            fontFamily="Myriad Pro"
+            fontFamily="MyriadPro-Bold"
             fontSize="150px"
             lineHeight="150px"
             fontWeight="700"
@@ -19,7 +19,7 @@ export default class MiddleVerticalBackground extends Component {
         </Styled.LeftDiv>
         <Styled.RightDiv>
           <Text
-            fontFamily="Myriad Pro"
+            fontFamily="MyriadPro-Bold"
             fontSize="150px"
             lineHeight="150px"
             fontWeight="700"

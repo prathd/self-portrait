@@ -90,7 +90,7 @@ export const LeftDiv = styled.div`
 `;
 
 export const ShellText = styled(Text)`
-    font-family: Myriad Pro;
+    font-family: MyriadPro-Regular;
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -155,7 +155,7 @@ export const Nickname = styled(Text)`
 `;
 
 export const AboutTitle = styled(Text)`
-  font-family: Myriad Pro;
+  font-family: MyriadPro-Bold;
   font-weight: 700;
   font-size: 80px;
   letter-spacing: 0px;

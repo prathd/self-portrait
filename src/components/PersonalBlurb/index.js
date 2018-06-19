@@ -16,7 +16,7 @@ export default class PersonalBlurb extends Component {
         </Text>
         <Styled.Line />
         <Text
-          fontFamily="Myriad Pro"
+          fontFamily="MyriadPro-Bold"
           fontSize="14px"
           fontWeight="700"
           letterSpacing="1px"

@@ -36,7 +36,7 @@ class Drawer extends Component {
       <Styled.Div showDrawer={this.props.showDrawer}>
         <Styled.ButtonDiv>
           <Styled.NavButton
-            fontFamily="Myriad Pro"
+            fontFamily="MyriadPro-Bold"
             fontSize="42px"
             fontWeight="700"
             active={this.activeRoute('/')}
@@ -45,7 +45,7 @@ class Drawer extends Component {
             Home.
           </Styled.NavButton>
           <Styled.NavButton
-            fontFamily="Myriad Pro"
+            fontFamily="MyriadPro-Bold"
             fontSize="42px"
             fontWeight="700"
             active={this.activeRoute('/about')}
@@ -54,7 +54,7 @@ class Drawer extends Component {
             About.
           </Styled.NavButton>
           <Styled.NavButton
-            fontFamily="Myriad Pro"
+            fontFamily="MyriadPro-Bold"
             fontSize="42px"
             fontWeight="700"
             active={this.activeRoute('/portfolio')}
@@ -63,7 +63,7 @@ class Drawer extends Component {
             Work.
           </Styled.NavButton>
           <Styled.NavButton
-            fontFamily="Myriad Pro"
+            fontFamily="MyriadPro-Bold"
             fontSize="42px"
             fontWeight="700"
             active={this.activeRoute('/blog')}
@@ -72,7 +72,7 @@ class Drawer extends Component {
             Blog.
           </Styled.NavButton>
           <Styled.NavButton
-            fontFamily="Myriad Pro"
+            fontFamily="MyriadPro-Bold"
             fontSize="42px"
             fontWeight="700"
             active={this.activeRoute('/contact')}
