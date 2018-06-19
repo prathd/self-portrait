@@ -6,11 +6,10 @@ export const Div = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 100%;
+  width: ${(props) => props.showDrawer ? '100%' : '0%'};
   background: white;
 
   position: absolute;
-  right: ${(props) => props.showDrawer ? '0%' : '-100%'};
   top: 0;
   z-index: 1;
 
