@@ -19,7 +19,7 @@ export const Div = styled.div`
 export const ButtonDiv = styled.div`
   align-self: flex-end;
   margin-top: 200px;
-  width: 100%;
+  width: 376px;
 
   @media (min-width: 576px) {
     width: 576px;

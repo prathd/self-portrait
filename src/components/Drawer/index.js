@@ -34,7 +34,7 @@ class Drawer extends Component {
   render() {
     return (
       <Styled.Div showDrawer={this.props.showDrawer}>
-        <Styled.ButtonDiv>
+        <Styled.ButtonDiv showDrawer={this.props.showDrawer}>
           <Styled.NavButton
             fontFamily="MyriadPro-Bold"
             fontSize="42px"
