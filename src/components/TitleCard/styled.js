@@ -81,7 +81,7 @@ export const MyImage = styled.img`
 
 export const LeftDiv = styled.div`
   align-self: center;
-  margin-top: 125px;
+  margin-top: 80px;
 
   @media (min-width: 1200px) {
     align-self: flex-start;
@@ -91,7 +91,7 @@ export const LeftDiv = styled.div`
 
 export const ShellText = styled(Text)`
     font-family: MyriadPro-Regular;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.5px;
     color: #4E4E4E;
@@ -99,11 +99,11 @@ export const ShellText = styled(Text)`
 
 export const Strikethrough = styled.div`
   position: absolute;
-  margin: 40px 0 0 -20px;
+  margin: 25px 0 0 -20px;
   transform: rotate(-3deg);
 
   border: 11px solid #000000;
-  width: 400px;
+  width: 350px;
 
   @media (min-width: 576px) {
     border: 11px solid #000000;
@@ -157,9 +157,9 @@ export const Nickname = styled(Text)`
 export const AboutTitle = styled(Text)`
   font-family: MyriadPro-Bold;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 70px;
   letter-spacing: 0px;
-  line-height: 80px;
+  line-height: 70px;
 
   @media (min-width: 576px) {
     font-size: 100px;

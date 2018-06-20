@@ -8,17 +8,17 @@ export const RightDiv = styled.div`
   display: flex;
   flex-direction: column;
 
-  top: 100px;
-  height: 880px;
   right: 0;
   background: #F6F6F6;
 
   @media (max-width: 991px) {
-    margin-top: 680px;
+    position: relative;
   }
 
   @media (min-width: 992px) {
+    height: 880px;
     width: 680px;
+    top: 100px;
   }
 
   @media (min-width: 1200px) {
