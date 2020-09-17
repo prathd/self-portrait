@@ -1,3 +1,3 @@
 # SELF PORTRAIT
 
-This is me.
+this is me
